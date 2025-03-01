@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: white;
+}
+header {
+    background: #1f1f1f;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+.sec1 {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #2a2a72, #009ffd);
+}
+.sec1 h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+.sec1 p {
+    font-size: 18px;
+}
+.cta {
+    margin-top: 20px;
+}
+.cta button {
+    padding: 12px 24px;
+    font-size: 18px;
+    background: #ff6f61;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background: #222;
+}
+.feature-box {
+    background: #333;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+.interactive {
+    text-align: center;
+    padding: 40px;
+}
+.interactive img {
+    width: 80%;
+    height:60%;
+    border-radius: 10px;
+}
+.footer {
+    background: #1f1f1f;
+    padding: 20px;
+    text-align: center;
+}
